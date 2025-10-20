@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* ------------ header --------------- */
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 20px;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+header ul li a{
+    color: black;
+    
+}
+a:hover{
+    color:rgb(26, 78, 223);
+}
+
+/* ------------ footer --------------- */
+
+footer{
+    height: 320px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footre_inup h5{
+      font-size: 36px;
+      line-height: 100%;
+      font-weight: Medium;
+      margin-bottom: 20px;
+}
+
+.footre_inup input{
+    padding: 16px 48px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.footre_inup button{
+    background-color: #65AEF2;
+    padding: 17px;
+    border-top-right-radius:12px ;
+    border-bottom-right-radius: 12px;
+}
+
+.footer_imformation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li_flex{
+    display: flex;
+}
+
+
+/* ----------------- homme --------------- */
+section{
+    margin-bottom: 20px;
+}
+.homme{
+    width: 100%;
+    height: 100vh;
+    background-image: url(photo/figma_cover.jpg);
+}
+
+.homme h2{
+    width: 50%;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+/* --------------- room ------------- */
+
+.room{
+    width: 80%;
+    height: 220px;
+    background-color: #E9F3F6;
+    border-radius: 46px;
+    margin: 20px auto;
+    padding-top: 50px;
+}
+.room_titil{
+    width: 40%;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.input_room{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+}
